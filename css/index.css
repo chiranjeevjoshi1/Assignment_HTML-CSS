@@ -1,0 +1,198 @@
+body {
+    display: block;
+    margin:0px 0px 0px 0px;
+    font-family: 'Walter Turncoat', cursive;
+
+  }
+  a{
+    text-decoration:none;
+    color:white;
+  }
+
+.heading{
+  padding-left:5px;
+  font-family: 'Courgette', cursive;
+	  overflow: hidden;
+  background-color: #39B2DB;
+  color:white;
+  padding-bottom:5px;
+  font-size:20px;
+  position: fixed;
+  height:50px;
+  top: 0;
+  width: 100%;
+	display:flex;
+}
+.heading_content_one
+{
+  padding-left:15px;
+	flex:1;
+
+}
+.heading_content_two
+{
+  flex:1;
+}
+.call-outs-container {
+  margin-top:0px;
+  padding-top:10px;
+  padding-bottom: 10px;
+	height:350px;
+  display: flex;
+  max-width: 100%;
+  background-color: #39B2DB;
+  
+}
+ul {
+    list-style-type: none;
+  
+}
+
+.call-out_one {
+
+  margin-left:20px;
+  margin-right:20px;
+  background-color: #39B2DB;
+  color:white;
+  box-sizing: border-box;
+  flex:1;
+}
+.call-out_two {
+    margin-left:20px;
+  margin-right:20px;
+  background-color: #39B2DB;
+  color:white;
+  box-sizing: border-box;
+  flex:1;
+}
+.call-out_three {
+    margin-left:20px;
+  margin-right:20px;
+  background-color: #39B2DB;
+  color:white;
+  box-sizing: border-box;
+  flex:1;
+}
+
+.navbarmenu{
+	display:flex;
+}
+.navbarelement
+{
+	flex:1;
+
+}
+.equal-height-container {
+  color:white;
+  background-color:#186580;
+	height:380px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first {
+  
+   background-color:#186580;
+  flex: 1;
+}
+
+.second {
+  background-color:#186580;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-a {
+  
+  flex: 1;
+}
+
+.second-b {
+  
+  flex: 1;
+}
+.second-c {
+  
+  flex: 1;
+}
+
+.hero-image {
+	display:flex;
+	left:0px;
+	padding-top: 50px;
+	background-size: cover;
+	height:500px;
+	bottom:0px;
+	
+	margin:0;
+	width:100%;
+  background-image: url("../img/homeimage.jpg");
+ 
+  
+ 
+}
+
+footer {
+	margin-left: 0px;
+	height: 145px;
+	background:  #39B2DB;
+
+}
+
+.foot-container {
+	
+	width: 80%;
+	margin:auto;
+
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+
+
+.footer-row-up {
+	flex: 5;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+
+.up-name {
+	
+	flex: 1;
+
+}
+
+.company {
+  text-align:left;
+	flex: 1;
+	color: white;
+    
+    font-size: 15px;
+}
+.company-base ul{
+  text-align:left;
+}
+
+
+
+
+
+
+
+
+.nav-title {
+	font-family: 'Architects Daughter';
+  text-align:center;
+	
+}
+
+
+
