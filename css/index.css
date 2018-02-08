@@ -11,6 +11,7 @@ body {
 
 .heading{
   padding-left:5px;
+  padding-right:5px;
   font-family: 'Courgette', cursive;
 	  overflow: hidden;
   background-color: #39B2DB;
@@ -19,13 +20,14 @@ body {
   font-size:20px;
   position: fixed;
   height:50px;
-  top: 0;
+  top:0px;
   width: 100%;
 	display:flex;
 }
 .heading_content_one
 {
-  padding-left:15px;
+  padding-left:7px;
+
 	flex:1;
 
 }
@@ -37,7 +39,7 @@ body {
   margin-top:0px;
   padding-top:10px;
   padding-bottom: 10px;
-	height:350px;
+	height:300px;
   display: flex;
   max-width: 100%;
   background-color: #39B2DB;
