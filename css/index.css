@@ -13,22 +13,23 @@ body {
   padding-left:5px;
   padding-right:5px;
   font-family: 'Courgette', cursive;
-	  overflow: hidden;
+    overflow: hidden;
   background-color: #39B2DB;
   color:white;
   padding-bottom:5px;
   font-size:20px;
+  width:100%;
   position: fixed;
   height:50px;
   top:0px;
-  width: 100%;
-	display:flex;
+  
+  display:flex;
 }
 .heading_content_one
 {
   padding-left:7px;
 
-	flex:1;
+  flex:1;
 
 }
 .heading_content_two
@@ -39,9 +40,9 @@ body {
   margin-top:0px;
   padding-top:10px;
   padding-bottom: 10px;
-	height:300px;
+  height:300px;
   display: flex;
-  max-width: 100%;
+ 
   background-color: #39B2DB;
   
 }
@@ -77,18 +78,18 @@ ul {
 }
 
 .navbarmenu{
-	display:flex;
+  display:flex;
 }
 .navbarelement
 {
-	flex:1;
+  flex:1;
 
 }
 .equal-height-container {
   color:white;
   background-color:#186580;
-	height:380px;
-  max-width: 100%;
+  height:380px;
+ 
   margin: 0 auto;
   display: flex;
 }
@@ -121,15 +122,15 @@ ul {
 }
 
 .hero-image {
-	display:flex;
-	left:0px;
-	padding-top: 50px;
-	background-size: cover;
-	height:500px;
-	bottom:0px;
-	
-	margin:0;
-	width:100%;
+  display:flex;
+  left:0px;
+  padding-top: 50px;
+  background-size: cover;
+  height:500px;
+  bottom:0px;
+  
+  margin:0;
+  
   background-image: url("../img/homeimage.jpg");
  
   
@@ -138,9 +139,9 @@ ul {
 
 footer {
   padding-right:15px;
-	margin-left: 0px;
-	height: 145px;
-	background:  #39B2DB;
+  margin-left: 0px;
+  height: 145px;
+  background:  #39B2DB;
   padding-left:15px;
   display:flex;
   
@@ -153,16 +154,16 @@ footer {
 
 
 .up-name {
-	
-	flex: 1;
+  
+  flex: 1;
   color:white;
 
 }
 
 .company {
   text-align:left;
-	flex: 1;
-	color: white;
+  flex: 1;
+  color: white;
     
     font-size: 15px;
 }
@@ -179,10 +180,9 @@ footer {
 
 
 .nav-title {
-	font-family: 'Architects Daughter';
+  font-family: 'Architects Daughter';
   text-align:left;
-	
+  
 }
-
 
 
